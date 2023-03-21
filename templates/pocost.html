@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="static/css/style.css"/>
+</head>
+<body>
+<div class="main-block">
+    <form action="/predictevalues?t=7&amp;s=1&amp;m=17743708386512" method="post" name="predictevalues">
+        <fieldset>
+            <legend>
+                <h3>PO form</h3>
+            </legend>
+            <div class="account-details">
+                <div>
+                    <label class="bmd-label-floating">ID</label>
+                    <input type="text" value="" class="form-control" name="Ã¯Â»Â¿ID" id="tagsÃ¯Â»Â¿ID" required="">
+                </div>
+                <div>
+                    <label class="bmd-label-floating">PO-SO #</label>
+                    <input type="text" value="" class="form-control" name="PO-SO #" id="tagsPO-SO #" required="">
+                </div>
+            </div>
+            <div class="account-details">
+                <div>
+                    <label class="bmd-label-floating">AS-DN #</label>
+                    <input type="text" value="" class="form-control" name="AS-DN #" id="tagsAS-DN #" required="">
+                </div>
+                <div>
+                    <label class="bmd-label-floating">Vendor INCO Term</label>
+                    <select name="Vendor_INCO_Term" id="tagsVendor_INCO _Term" required>
+                        <option value="EXW">EXW</option>
+                        <option value="FCA">FCA</option>
+                        <option value="DDU">DDU</option>
+                        <option value="CIP">CIP</option>
+                        <option value="DDP">DDP</option>
+                        <option value="CIF">CIF</option>
+                    </select>
+                </div>
+            </div>
+            <div class="account-details">
+                <div>
+                    <label class="bmd-label-floating">Line Item Quantity</label>
+                    <input type="number" name="Line Item Quantity" required>
+                </div>
+                <div>
+                    <label class="bmd-label-floating">Delivered to Client Date</label>
+                    <input type="date" value="" class="form-control" name="Delivered to Client Date"
+                           id="tagsDelivered to Client Date" required="">
+                </div>
+            </div>
+            <div class="account-details">
+                <div>
+                    <label class="bmd-label-floating">Dosage Form</label>
+                    <select name="DosageForm" id="DosageForm" required>
+                        <option value=“Test kit“>Test kit</option>
+                        <option value=“Oral suspension“>Oral suspension</option>
+                        <option value=“Tablet“>Tablet</option>
+                        <option value=“Capsule“>Capsule</option>
+                        <option value=“Oral solution“>Oral solution</option>
+                        <option value=“Tablet - FDC“>Tablet - FDC</option>
+                        <option value=“Powder for oral solution“>Powder for oral solution</option>
+                        <option value=“Testkit - Ancillary“>Test kit - Ancillary</option>
+                        <option value=“Chewable/dispersible tablet“>Chewable/dispersible tablet</option>
+                        <option value=“Delayed-release capsules - blister“>Delayed-release capsules - blister</option>
+                        <option value=“Tablet - blister“>Tablet - blister</option>
+                        <option value=“Tablet - FDC + blister“>Tablet - FDC + blister</option>
+                        <option value=“Tablet - FDC + co-blister“>Tablet - FDC + co-blister</option>
+                        <option value=“Injection“>Injection</option>
+                        <option value=“Delayed-release capsules“>Delayed-release capsules</option>
+                        <option value=“Chewable/dispersible tablet - FDC“>Chewable/dispersible tablet - FDC</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="bmd-label-floating">First Line Designation</label>
+                    <select name="First Line Designation" required>
+                        <option value=“Yes“>Yes</option>
+                        <option value=“No“>No</option>
+                    </select>
+                </div>
+            </div>
+            <div class="account-details">
+                <div>
+                    <label class="bmd-label-floating">Line Item Value</label>
+                    <input type="number" name="Line Item Value" required>
+
+                </div>
+                <div>
+                    <label class="bmd-label-floating">Unit Price</label>
+                    <input type="number" name="Unit Price" required>
+                </div>
+            </div>
+            <div class="account-details">
+                <div>
+                    <label class="bmd-label-floating">Pack Price</label>
+                    <input type="number" name="Pack" required>
+                </div>
+                <div>
+                    <label class="bmd-label-floating">Vendor</label>
+                    <select name="Vendor" required>
+                        <option name=“0“>RANBAXY Fine Chemicals LTD.</option>
+                        <option name=“1“>Aurobindo Pharma Limited</option>
+                        <option name=“2“>Abbott GmbH & Co. KG</option>
+                        <option name=“3“>SUN PHARMACEUTICAL INDUSTRIES LTD (RANBAXY LABORATORIES LIMITED)</option>
+                        <option name=“4“>MERCK SHARP & DOHME IDEA GMBH (FORMALLY MERCK SHARP & DOHME B.V.)</option>
+                        <option name=“5“>ABBVIE LOGISTICS (FORMERLY ABBOTT LOGISTICS BV)</option>
+                        <option name=“6“>Trinity Biotech, Plc</option>
+                        <option name=“7“>EY Laboratories</option>
+                        <option name=“8“>CIPLA LIMITED</option>
+                        <option name=“9“>BRISTOL-MYERS SQUIBB</option>
+                        <option name=“10“>ACCOUN NIGERIA LIMITED</option>
+                        <option name=“11“>Premier Medical Corporation Ltd.</option>
+                        <option name=“12“>CHEMBIO DIAGNOSTIC SYSTEMS, INC.</option>
+                        <option name=“13“>Orgenics, Ltd</option>
+                        <option name=“14“>Orasure Technologies Inc.</option>
+                        <option name=“15“>Standard Diagnostics, Inc.</option>
+                        <option name=“16“>JSI R&T INSTITUTE, INC.</option>
+                        <option name=“17“>GILEAD SCIENCES IRELAND, INC.</option>
+                        <option name=“18“>BIO-RAD LABORATORIES (FRANCE)</option>
+                        <option name=“19“>TURE PHARMACEUTICALS & MEDICAL SUPPLIES P.L.C.</option>
+                        <option name=“20“>MYLAN LABORATORIES LTD (FORMERLY MATRIX LABORATORIES)</option>
+                        <option name=“21“>S. BUYS WHOLESALER</option>
+                        <option name=“22">IDA FOUNDATION</option>
+                        <option name=“23“>ZEPHYR BIOMEDICALS</option>
+                        <option name=“24“>HETERO LABS LIMITED</option>
+                        <option name=“25“>INTERNATIONAL HEALTHCARE DISTRIBUTORS</option>
+                        <option name=“26“>STRIDES ARCOLAB LIMITED</option>
+                        <option name=“27“>ASPEN PHARMACARE</option>
+                        <option name=“28“>SHANGHAI KEHUA BIOENGINEERING CO.,LTD. (KHB)</option>
+                        <option name=“29“>BIOLYTICAL LABORATORIES INC.</option>
+                        <option name=“30“>INVERNESS MEDICAL INNOVATIONS SOUTH AFRICA (PTY) LTD</option>
+                        <option name=“31“>ABBOTT LABORATORIES (PUERTO RICO)</option>
+                        <option name=“32“>SUB-SAHARAN BIOMEDICAL P.L.C.</option>
+                        <option name=“33“>SETEMA LIMITED PLC</option>
+                        <option name=“34“>GLAXOSMITHKLINE EXPORT LIMITED</option>
+                        <option name=“35“>OMEGA DIAGNOSTICS LTD</option>
+                        <option name=“36“>Hoffmann-La Roche ltd Basel</option>
+                        <option name=“37“>REINBOLD EXPORT IMPORT</option>
+                        <option name=“38“>BUNDI INTERNATIONAL DIAGNOSTICS LTD</option>
+                        <option name=“39“>MISSIONPHARMA A/S</option>
+                        <option name=“40“>PLURIPHARM S.A.</option>
+                        <option name=“41“>CENTRAL PHARMACEUTICAL COMPANY NO. 1</option>
+                        <option name=“42“>AHN (PTY) LTD (AKA UCB (S.A.)</option>
+                        <option name=“43“>KAS MEDICS LIMITED</option>
+                    </select>
+                </div>
+            </div>
+            <div class="account-details">
+                <div>
+                    <label class="bmd-label-floating">Product Group</label>
+                    <input type="text" value="" class="form-control" name="Product Group" id="tagsProduct Group"
+                           required="">
+                </div>
+                <div>
+                    <label class="bmd-label-floating">Delivery Recorded Date</label>
+                    <input type="date" value="" class="form-control" name="Delivery Recorded Date"
+                           id="tagsDelivery Recorded Date" required="">
+                </div>
+            </div>
+            <div class="account-details">
+                <div>
+                    <label class="bmd-label-floating">Country</label>
+                    <select name="country" required>
+                        <option value="Côte d'Ivoire">Côte d'Ivoire</option>
+                        <option value="Vietnam">Vietnam</option>
+                        <option value="Nigeria">Nigeria</option>
+                        <option value="Zambia">Zambia</option>
+                        <option value="Tanzania">Tanzania</option>
+                        <option value="Rwanda">Rwanda</option>
+                        <option value="Haiti">Haiti</option>
+                        <option value="Zimbabwe">Zimbabwe</option>
+                        <option value="Ethiopia">Ethiopia</option>
+                        <option value="South Africa">South Africa</option>
+                        <option value="Guyana">Guyana</option>
+                        <option value="Namibia">Namibia</option>
+                        <option value="Botswana">Botswana</option>
+                        <option value="Mozambique">Mozambique</option>
+                        <option value="Kenya">Kenya</option>
+                        <option value="Kazakhstan">Kazakhstan</option>
+                        <option value="Uganda">Uganda</option>
+                        <option value="Kyrgyzstan">Kyrgyzstan</option>
+                        <option value="Senegal">Senegal</option>
+                        <option value="Benin">Benin</option>
+                        <option value="Lesotho">Lesotho</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="bmd-label-floating">Scheduled Delivery Date</label>
+                    <input type="date" value="" class="form-control" name="Scheduled Delivery Date"
+                           id="tagsScheduled Delivery Date" required="">
+                </div>
+            </div>
+            <div class="account-details">
+                <div>
+                    <label class="bmd-label-floating">Brand</label>
+                    <select name="Brand" required>
+                        <option value="Reveal">Reveal</option>
+                        <option value="Generic"></option>
+                        <option value="Determine">Generic</option>
+                        <option value="Stocrin/Sustiva">Stocrin/Sustiva</option>
+                        <option value="Aluvia">Aluvia</option>
+                        <option value="Uni-Gold">Uni-Gold</option>
+                        <option value="InstantCHEK">InstantCHEK</option>
+                        <option value="Videx">Videx</option>
+                        <option value="First Response">First Response</option>
+                        <option value="Stat-Pak">Stat-Pak</option>
+                        <option value="OraQuick">OraQuick</option>
+                        <option value="Bioline">Bioline</option>
+                        <option value="Retrovir">Retrovir</option>
+                        <option value="Viread">Viread</option>
+                        <option value="Zerit">Zerit</option>
+                        <option value="Capillus">Capillus</option>
+                        <option value="Genie">Genie</option>
+                        <option value="Invirase">Invirase</option>
+                        <option value="Videx EC">Videx EC</option>
+                        <option value="Ziagen">Ziagen</option>
+                        <option value="Coartem">Coartem</option>
+                        <option value="Viramune">Viramune</option>
+                        <option value="Paramax">Paramax</option>
+                        <option value="Atripla">Atripla</option>
+                        <option value="Kaletra">Kaletra</option>
+                        <option value="Epivir">Epivir</option>
+                        <option value="Norvir">Norvir</option>
+                        <option value="Truvada">Truvada</option>
+                        <option value="Clearview">Clearview</option>
+                        <option value="Colloidal Gold">Colloidal Gold</option>
+                        <option value="INSTi">INSTi</option>
+                        <option value="Trizivir">Trizivir</option>
+                        <option value="Visitect">Visitect</option>
+                        <option value="Viracept">Viracept</option>
+                        <option value="DoubleCheck">DoubleCheck</option>
+                        <option value="Bundi">Bundi</option>
+                        <option value="ImmunoComb">ImmunoComb</option>
+                        <option value="Crixivan">Crixivan</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="bmd-label-floating">Weight (Kilograms)</label>
+                    <input type="number" name="Weight" required>
+                </div>
+            </div>
+            <div class="account-details">
+                <div>
+                    <label class="bmd-label-floating">Project Code</label>
+                    <input type="text" value="" class="form-control" name="Project Code" id="tagsProject Code"
+                           required="">
+                </div>
+                <div>
+                    <label class="bmd-label-floating">Shipment Mode</label>
+                    <select name="shipment_mode" required>
+                        <option value="Air">Air</option>
+                        <option value="Truck">Truck</option>
+                        <option value="N/A">N/A</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary pull-right">Predict Values</button>
+            <div class="clearfix"></div>
+            <input type="hidden" name="ds_goal" value="7">
+            <input type="hidden" name="ds_source" value="1">
+            <input type="hidden" name="mid" value="17743708386512">
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>
